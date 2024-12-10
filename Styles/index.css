@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Yeseva One Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Yeseva One Regular'), url('YesevaOne-Regular.woff') format('woff');
+    }
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+}
+.header{
+    width: 100vw;
+    height: 80px;
+    background-color:#fff;
+    display: flex;
+}
+.logo span{
+    color: #1f2b6c;
+    font-family: 'Yeseva One Regular', sans-serif;
+    
+}
+.logo h1{
+    color: #159eec;
+    font-family: 'Yeseva One Regular', sans-serif;
+}
+
+.text{
+    width: 623px;
+    height: 42px;  
+}
+
+.emergency img{
+    display: flex;
+}
+.emergency h2{
+    color: #1f2b6c;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    
+}
+.emergency p{
+    color: #159eec;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    
+}
