@@ -5,7 +5,7 @@ function ContactPage() {
     return (
         <div>
             <HeaderComponent/>
-            <h1>About Us</h1>
+            <h1>Contact Page</h1>
             {/* Footer Component */}
         </div>
     )
