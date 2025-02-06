@@ -1,5 +1,5 @@
 import HeaderComponent from "../components/headerComponent"
-import "./about.css"
+import "./contact.css"
 
 function ContactPage() {
     return (
