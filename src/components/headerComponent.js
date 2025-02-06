@@ -8,8 +8,8 @@ function HeaderComponent() {
             <Link className="nav-link" to="/about-us" >About Us</Link>
             <Link className="nav-link" to="/services">Services</Link>
             <Link className="nav-link" to="/doctors">Doctors</Link>
-            <Link className="nav-link">News</Link>
-            <Link className="nav-link">Contact</Link>
+            <Link className="nav-link" to="/news">News</Link>
+            <Link className="nav-link" to="/contact">Contact</Link>
         </nav>
     )
 }
