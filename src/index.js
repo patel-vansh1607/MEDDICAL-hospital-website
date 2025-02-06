@@ -11,6 +11,7 @@ import AboutUsPage from './pages/about';
 import ServicesPage from './pages/services';
 import DoctorsPage from './pages/doctors';
 import NewsPage from './pages/news';
+import ContactPage from './pages/contact';
 
 const router = createBrowserRouter([{
   path: "/",
@@ -27,6 +28,9 @@ const router = createBrowserRouter([{
 }, {
   path: "/news",
   element: <NewsPage/>,
+} , {
+  path: "/contact",
+  element: <ContactPage/>,
 }
 ])
 
