@@ -1,11 +1,14 @@
 import HeaderComponent from "../components/headerComponent"
 import "./contact.css"
+import Icon from "../Images/contact.png"
 
 function ContactPage() {
     return (
         <div>
             <HeaderComponent/>
-            <h1>Contact Page</h1>
+            <header>
+                <img src={Icon}></img>
+            </header>
             {/* Footer Component */}
         </div>
     )
