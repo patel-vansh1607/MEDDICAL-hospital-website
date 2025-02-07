@@ -1,5 +1,5 @@
 import HeaderComponent from "../components/headerComponent"
-import "./doctors"
+import "./doctors.css"
 
 function DoctorsPage() {
     return (
